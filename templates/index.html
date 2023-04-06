@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Air Quality Trend</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>  
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+    <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h1>Interactive Map of Air Quality Trend</h1>
+        </div>
+      </div>
+  </div>
+    <style>
+      h1{
+         color: rgba(20, 13, 213, 0.731);
+      }
+      h3{
+         color: rgba(138, 14, 14, 0.611);
+      }
+   </style>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h3>Air Quality Trend Metrics Info</h3>
+          <p>CO  2nd Max  -  Second maximum non-overlapping 8-hour concentration (ppm)</p>
+          <p>Pb Max 3-Month Average  -  Maximum rolling 3-month average (µg/m3)</p>
+          <p>NO2  98th Percentile   -  98th percentile of daily maximum 1-hour concentration (ppb)</p>
+          <p>PM10  2nd Max - Second maximum 24-hour concentration (µg/m3)</p>
+          <p>O3  4th Max  -  Fourth highest daily maximum 8-hour concentration (ppm)</p>
+          <p>PM2.5  98th Percentile  -  98th percentile of 24-hour concentration (µg/m3)</p>
+          <p>SO2   99th percentile  -  99th percentile of daily maximum 1-hour concentration (ppb)</p>
+        </div>
+      </div>
+  </div>
+    <!-- The div that holds our map -->
+    <div id="map" style="height: 480px"></div>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h3>NO2 Trend For Year 2021</h3>
+          <p>NO2  Annual Mean  -  Arithmetic mean concentration of hourly concentrations (ppb)</p>
+        </div>
+      </div>
+    <div id="bar" style="height: 360px"></div>
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h3>PM2.5 Trend For Year 2021</h3>
+          <p>PM2.5  Weighted Annual Mean  -  Weighted annual mean concentration (µg/m3)</p>
+        </div>
+      </div>
+    <div id="bar1" style="height: 360px"></div>
+    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 sjumbotron text-center">
+          <h3>NO2 Trend plot 1</h3>
+        </div>
+      </div>
+    <div id="plot1" style="height: 360px"></div>
+    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h3>PM2.5 Trend plot 2</h3>
+        </div>
+      </div>
+    <div id="plot2" style="height: 360px"></div>
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+    <!-- Our JavaScript -->
+    <script src='static/js/logic.js'></script>
+    <script src='static/js/bar.js'></script>
+    <script src="static/js/no2.js"></script>
+    <script src="static/js/pm2.js"></script>
+    
+    
+</body>
+</html>
