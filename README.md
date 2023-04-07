@@ -1,10 +1,19 @@
 ## Background
 
 This is group project done on ETL, Python Flask, JavaScript, HTML and Data Visualizations
-Contributors: Shweta Joshi
+
+
+
+Contributors: 
+
+Shweta Joshi
+
 Meera G K
+
 Antonette Goroch
+
 Dang Tran
+
 Reed Zimpfer
 
 ### Introduction
