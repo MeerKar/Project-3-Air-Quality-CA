@@ -23,7 +23,7 @@ The datasets used in this project cover the daily data between year 2000 – 202
 Air quality data are collected at outdoor monitors across the United States and can be download from EPA(https://www.epa.gov/air-trends/air-quality-cities-and-counties)
 
 <img width="618" alt="image" src="https://user-images.githubusercontent.com/116701851/230517802-3e1f1db3-bd76-4c33-8087-cf52158a77da.png">
-
+ 
 
 ### Project Overview:
 
@@ -91,7 +91,7 @@ Effort should continuously be made to reduce them. How can we make a difference?
 Also air quality continues to worsen in cities across the world, especially in low-income countries and developing countries.  Cooperation should be setup among countries in combating air pollution.
 
 
-
-
+The presentation link is as follows [
+](https://docs.google.com/presentation/d/1gcAJbYZgsKAPCHNBgrSdTqi2zWFi4STZfI3WkBl7x9U/edit#slide=id.g22b966ed116_2_5)
 
 
