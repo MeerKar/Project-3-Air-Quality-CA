@@ -13,6 +13,9 @@ In this Project we have taken  data  shows  air pollution which  is a leading ca
 The datasets used in this project cover the daily data between year 2000 – 2021 for California state area. 
 Air quality data are collected at outdoor monitors across the United States and can be download from EPA(https://www.epa.gov/air-trends/air-quality-cities-and-counties)
 
+<img width="618" alt="image" src="https://user-images.githubusercontent.com/116701851/230517802-3e1f1db3-bd76-4c33-8087-cf52158a77da.png">
+
+
 ### Project Overview:
 
 Who is the target audience?
@@ -55,30 +58,31 @@ Using Javascript ,leaflet and HTML a dash board had been created in the local po
 
 
 
-and Bar and Linear graphs which shows the 
+and Bar and Linear graphs which plots the Annual mean of NO2 and PM2.5 on each City and Year.
+
+<img width="596" alt="image" src="https://user-images.githubusercontent.com/116701851/230517490-cdcfa1c8-b3d3-41ca-b0a5-e0af6bc9ea64.png">
+
+<img width="595" alt="image" src="https://user-images.githubusercontent.com/116701851/230517465-264a2f96-fe29-403f-9d51-968a895a7079.png">
+
+<img width="624" alt="image" src="https://user-images.githubusercontent.com/116701851/230517527-df7e89ca-ea09-4f9c-808a-8950412dfe0a.png">
+
+<img width="610" alt="image" src="https://user-images.githubusercontent.com/116701851/230517559-6116ded2-6068-4d28-8d99-fe0306b38d0b.png">
+
+## Data Visualization and Analysis
+
+Pollutant Levels of CO, SO2, and PM10 have been continuously dropping to low level, which means we have moderate to good 
+Air conditions in California State.But we see that Ozone, NO2, and PM2.5 haven't dropped that much are related to 
+high number of factories, high number of vehicles, and other source of pollution that are still not under well controlled.
 
 
-# AirQuality_Cal-DataVisualization
-Requirements
-For Project 3, you will work with your group to tell a story using data visualizations. Here are the specific requirements:
+## Summary
 
-Your visualization must include a Python Flask-powered API, HTML/CSS, JavaScript, and at least one database (SQL, MongoDB, SQLite, etc.).
+As air quality has been improved and there are still pollutants (Ozone, NO2, and PM2.5) retain at high pollution Level. 
+Effort should continuously be made to reduce them. How can we make a difference? Drive less, use less electricity, don't burn wood or trash, support measures in your community that can cut air pollution, etc.
+Also air quality continues to worsen in cities across the world, especially in low-income countries and developing countries.  Cooperation should be setup among countries in combating air pollution.
 
-Your project should fall into one of the following three tracks:
 
-A combination of web scraping and Leaflet or Plotly
 
-A dashboard page with multiple charts that update from the same data
 
-A server that performs multiple manipulations on data in a database prior to visualization (must be approved)
 
-Your project should include at least one JS library that we did not cover.
 
-Your project must be powered by a dataset with at least 100 records.
-
-Your project must include some level of user-driven interaction (e.g., menus, dropdowns, textboxes).
-
-Your final visualization should ideally include at least three views.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-DataSet link  : https://www.epa.gov/air-trends/air-quality-cities-and-counties
